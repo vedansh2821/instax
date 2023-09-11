@@ -24,7 +24,7 @@ class app(InstaHak):
         dpg.create_context()
 
         with dpg.window(label="InstaHak", width=600, height=600):
-            dpg.add_text(f'github: https://github.com/brookehorizon', pos=(120, 30))
+            dpg.add_text(f'github: https://github.com/vedansh2821', pos=(120, 30))
             dpg.add_input_text(tag='user', label='username',pos=(100, 90))
             dpg.add_input_text(tag='pas', label='passlist', default_value='core/pl.txt',pos=(100, 120))
             dpg.add_button(label='start', callback=self.start_InstaHak, width=390, height=30, pos=(100, 150))
